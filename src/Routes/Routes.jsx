@@ -6,6 +6,7 @@ import Contact from "../Pages/Contact";
 import HireUs from "../Pages/HireUs";
 import ReactTemplete from '../Pages/AllTheme/ReactTemplete/ReactTemplete'
 import TailwindTemplete from '../Pages/AllTheme/TailwindTemplete/TailwindTemplete'
+import PrivacyPolicy from "../Pages/Extra/PrivacyPolicy";
 
 
 export const router = createBrowserRouter([
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
                 path: '/hire-us',
                 element: <HireUs />
             },
+            {
+                path: '/privacy',
+                element: <PrivacyPolicy></PrivacyPolicy>
+            }
         ]
     },
 ]);
