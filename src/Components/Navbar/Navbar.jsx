@@ -73,7 +73,7 @@ const Navbar = () => {
         <div className="navbar-end text-black">
           {/* end */}
           <div className="flex gap-2">
-            <div className="form-control">
+            <div className="form-control  hidden">
               <input
                 type="text"
                 placeholder="Search"
