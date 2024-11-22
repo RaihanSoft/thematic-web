@@ -9,7 +9,7 @@ const navLink = (
     <li>
       <details>
         <summary>All Theme</summary>
-        <ul className="p-1 w-40 bg-[#634e75]">
+        <ul className="p-1 w-40 bg-white text-black">
           <li>
             <a>React Template</a>
           </li>
