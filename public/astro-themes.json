@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "theme_name": "Cloudpeak Astro",
+        "price": {
+            "original": "$99.00",
+            "discounted": "$59.00"
+        },
+        "description": "A highly customizable SaaS theme designed for businesses and agencies.",
+        "key_features": [
+            "15+ Unique Pages",
+            "100/100 Google PageSpeed Score",
+            "Built with Tailwind CSS",
+            "Fully responsive design",
+            "SEO Friendly"
+        ],
+        "image": {
+            "main": "cloudpeak_main.png",
+            "additional": "cloudpeak_additional.png"
+        }
+    },
+    {
+        "id": 2,
+        "theme_name": "Lunar Pro",
+        "price": {
+            "original": "$120.00",
+            "discounted": "$80.00"
+        },
+        "description": "A professional theme for tech startups and modern businesses.",
+        "key_features": [
+            "20+ Custom Pages",
+            "Advanced Analytics Integration",
+            "Interactive Animations",
+            "Easy Customization",
+            "Lifetime Updates"
+        ],
+        "image": {
+            "main": "lunarpro_main.png",
+            "additional": "lunarpro_additional.png"
+        }
+    },
+    {
+        "id": 3,
+        "theme_name": "Bright Start",
+        "price": {
+            "original": "$75.00",
+            "discounted": "$50.00"
+        },
+        "description": "Perfect for creative portfolios and freelancers.",
+        "key_features": [
+            "Portfolio Showcase",
+            "Blog Integration",
+            "Smooth Scrolling",
+            "Mobile Optimized",
+            "SEO Ready"
+        ],
+        "image": {
+            "main": "brightstart_main.png",
+            "additional": "brightstart_additional.png"
+        }
+    },
+    {
+        "id": 4,
+        "theme_name": "Vivid Agency",
+        "price": {
+            "original": "$90.00",
+            "discounted": "$65.00"
+        },
+        "description": "Ideal for digital marketing agencies.",
+        "key_features": [
+            "Landing Page Design",
+            "Social Media Integration",
+            "Customizable Layouts",
+            "Cross-Browser Compatibility",
+            "Detailed Documentation"
+        ],
+        "image": {
+            "main": "vividagency_main.png",
+            "additional": "vividagency_additional.png"
+        }
+    },
+    {
+        "id": 5,
+        "theme_name": "Nimbus SaaS",
+        "price": {
+            "original": "$99.00",
+            "discounted": "$59.00"
+        },
+        "description": "Designed for modern SaaS applications.",
+        "key_features": [
+            "Built with React",
+            "Dark and Light Modes",
+            "Pre-Integrated Components",
+            "100/100 Lighthouse Score",
+            "Fully Responsive"
+        ],
+        "image": {
+            "main": "nimbus_main.png",
+            "additional": "nimbus_additional.png"
+        }
+    },
+    {
+        "id": 6,
+        "theme_name": "Atlas Corporate",
+        "price": {
+            "original": "$110.00",
+            "discounted": "$75.00"
+        },
+        "description": "Corporate theme with a professional touch.",
+        "key_features": [
+            "Custom Contact Forms",
+            "Team Section",
+            "Responsive Tables",
+            "One-Click Installation",
+            "Modern Aesthetics"
+        ],
+        "image": {
+            "main": "atlas_main.png",
+            "additional": "atlas_additional.png"
+        }
+    },
+    {
+        "id": 7,
+        "theme_name": "Phoenix Lite",
+        "price": {
+            "original": "$70.00",
+            "discounted": "$45.00"
+        },
+        "description": "Lightweight theme for startups.",
+        "key_features": [
+            "Speed Optimized",
+            "Minimalist Design",
+            "SEO Ready",
+            "User-Friendly Interface",
+            "Flexible Layouts"
+        ],
+        "image": {
+            "main": "phoenixlite_main.png",
+            "additional": "phoenixlite_additional.png"
+        }
+    },
+    {
+        "id": 8,
+        "theme_name": "Aurora UX",
+        "price": {
+            "original": "$95.00",
+            "discounted": "$65.00"
+        },
+        "description": "A UX-focused theme for designers and developers.",
+        "key_features": [
+            "UX-Centered Components",
+            "Modern Typography",
+            "Dark and Light Modes",
+            "Interactive Animations",
+            "Cross-Browser Support"
+        ],
+        "image": {
+            "main": "auroraux_main.png",
+            "additional": "auroraux_additional.png"
+        }
+    },
+    {
+        "id": 9,
+        "theme_name": "Visionary Pro",
+        "price": {
+            "original": "$105.00",
+            "discounted": "$70.00"
+        },
+        "description": "A futuristic theme for tech-savvy brands.",
+        "key_features": [
+            "AI-Integrated Tools",
+            "Dynamic Widgets",
+            "Advanced Customization",
+            "Lifetime Updates",
+            "One-Click Demo Import"
+        ],
+        "image": {
+            "main": "visionarypro_main.png",
+            "additional": "visionarypro_additional.png"
+        }
+    },
+    {
+        "id": 10,
+        "theme_name": "Summit Pro",
+        "price": {
+            "original": "$115.00",
+            "discounted": "$85.00"
+        },
+        "description": "A versatile theme for agencies and enterprises.",
+        "key_features": [
+            "Built with Bootstrap",
+            "Advanced Grid System",
+            "Custom Widgets",
+            "High-Performance Code",
+            "SEO Optimized"
+        ],
+        "image": {
+            "main": "summitpro_main.png",
+            "additional": "summitpro_additional.png"
+        }
+    }
+]

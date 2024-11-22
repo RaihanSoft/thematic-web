@@ -16,7 +16,8 @@ export const router = createBrowserRouter([
 
             {
                 path: '/',
-                element: <Home />
+                element: <Home />,
+                loader:()=> fetch('./astro-themes.json')
             },
             {
                 path: '/detail',
