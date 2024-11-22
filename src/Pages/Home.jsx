@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom"
-import BannerSlide from "../Components/BannerSlide/BannerSlide"
+
 import Astro_Themes from "../Components/Dynamic/Astro_Themes"
+import Banner from "../Components/HeroSection/Banner/Banner"
 
 const Home = () => {
   const astroTheme = useLoaderData()
@@ -8,7 +9,7 @@ const Home = () => {
 
   return (
     <div>
-      <BannerSlide />
+      <Banner/>
 
       {/* dynamic astro Theme starts */}
       <div>
