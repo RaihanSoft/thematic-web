@@ -13,9 +13,10 @@ const MainLayout = () => {
 
             </header>
 
-            <main>
+            <main className="h-[calc(100vh-400px)]">
                 <Outlet />
             </main>
+
 
             <Footer></Footer>
 
