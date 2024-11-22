@@ -28,14 +28,14 @@ const All_Astro = () => {
         {allAstro.map((astro) => (
           <div
             key={astro.id}
-            className="relative bg-white shadow-lg rounded-3xl overflow-hidden group hover:scale-105 transition-transform duration-300"
+            className="relative bg-white shadow-lg rounded-lg overflow-hidden group hover:scale-105 transition-transform duration-300"
           >
             {/* Card Image */}
             <div className="relative">
               <img
                 src={astro.image.main}
                 alt={astro.theme_name}
-                className="w-full h-56 object-cover"
+                className="w-full h-56 object-cover rounded-lg "
               />
               {/* Badge for Discounted Price */}
               <div className="absolute top-4 left-4 bg-gradient-to-r from-teal-400 to-teal-600 text-white px-3 py-1 text-xs font-bold rounded-full">
