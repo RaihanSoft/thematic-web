@@ -1,25 +1,23 @@
-import { Outlet } from "react-router-dom"
-import Navbar from "../Components/Navbar/Navbar"
+import { Outlet } from 'react-router-dom';
+import Navbar from '../Components/Navbar/Navbar';
+import BannerSlide from '../Components/BannerSlide/BannerSlide';
 
 const MainLayout = () => {
-    return (
-        <div>
+  return (
+    <div>
+      <header>
+        <Navbar />
 
-            <header>
-                <Navbar />
-                this is Navbar
+        <BannerSlide></BannerSlide>
+      </header>
 
+      <main>
+        <Outlet />
+      </main>
 
-            </header>
+      <footer></footer>
+    </div>
+  );
+};
 
-            <main>
-                <Outlet />
-            </main>
-
-            <footer></footer>
-
-        </div>
-    )
-}
-
-export default MainLayout
+export default MainLayout;
