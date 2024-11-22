@@ -15,8 +15,8 @@
             "SEO Friendly"
         ],
         "image": {
-            "main": "cloudpeak_main.png",
-            "additional": "cloudpeak_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Foptimize-astro.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?technology"
         }
     },
     {
@@ -35,8 +35,8 @@
             "Lifetime Updates"
         ],
         "image": {
-            "main": "lunarpro_main.png",
-            "additional": "lunarpro_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Ffortify-astro.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?innovation"
         }
     },
     {
@@ -55,8 +55,8 @@
             "SEO Ready"
         ],
         "image": {
-            "main": "brightstart_main.png",
-            "additional": "brightstart_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Fbexer.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?design"
         }
     },
     {
@@ -75,8 +75,8 @@
             "Detailed Documentation"
         ],
         "image": {
-            "main": "vividagency_main.png",
-            "additional": "vividagency_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fthumbnails%2Fbiztrox.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?agency"
         }
     },
     {
@@ -95,8 +95,8 @@
             "Fully Responsive"
         ],
         "image": {
-            "main": "nimbus_main.png",
-            "additional": "nimbus_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fthumbnails%2Fdelta.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?software"
         }
     },
     {
@@ -115,8 +115,8 @@
             "Modern Aesthetics"
         ],
         "image": {
-            "main": "atlas_main.png",
-            "additional": "atlas_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Fdarkrise.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?professional"
         }
     },
     {
@@ -135,8 +135,8 @@
             "Flexible Layouts"
         ],
         "image": {
-            "main": "phoenixlite_main.png",
-            "additional": "phoenixlite_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fthumbnails%2Flogbook.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?minimal"
         }
     },
     {
@@ -155,8 +155,8 @@
             "Cross-Browser Support"
         ],
         "image": {
-            "main": "auroraux_main.png",
-            "additional": "auroraux_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fthumbnails%2Fbigspring.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?design"
         }
     },
     {
@@ -175,8 +175,8 @@
             "One-Click Demo Import"
         ],
         "image": {
-            "main": "visionarypro_main.png",
-            "additional": "visionarypro_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fthumbnails%2Fagico.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?ai"
         }
     },
     {
@@ -195,8 +195,8 @@
             "SEO Optimized"
         ],
         "image": {
-            "main": "summitpro_main.png",
-            "additional": "summitpro_additional.png"
+            "main": "https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Fspydea.png&w=640&q=80",
+            "additional": "https://source.unsplash.com/random/800x600?enterprise"
         }
     }
 ]

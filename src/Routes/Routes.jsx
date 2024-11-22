@@ -6,6 +6,8 @@ import Contact from "../Pages/Contact";
 import HireUs from "../Pages/HireUs";
 import ReactTemplete from '../Pages/AllTheme/ReactTemplete/ReactTemplete'
 import TailwindTemplete from '../Pages/AllTheme/TailwindTemplete/TailwindTemplete'
+import All_Astro from "../Pages/DynamicPage/All_Astro";
+import PrivacyPolicy from "../Pages/Extra/PrivacyPolicy";
 
 
 export const router = createBrowserRouter([
@@ -17,12 +19,12 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />,
-                loader:()=> fetch('./astro-themes.json')
+                loader: () => fetch('./astro-themes.json')
             },
             {
                 path: '/detail',
                 element: <ReactTemplete />
-            },            
+            },
             {
                 path: '/react',
                 element: <ReactTemplete />
@@ -44,6 +46,16 @@ export const router = createBrowserRouter([
                 path: '/hire-us',
                 element: <HireUs />
             },
+            {
+                path: '/all_astro',
+                element: <All_Astro />,
+                loader: () => fetch('./astro-themes.json')
+
+            },
+            {
+                path: '/privacy',
+                element: <PrivacyPolicy />
+            }
         ]
     },
 ]);
