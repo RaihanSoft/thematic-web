@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Components/Navbar/Navbar';
-import BannerSlide from '../Components/BannerSlide/BannerSlide';
+
 import Footer from '../Components/Footer/Footer';
 
 const MainLayout = () => {
@@ -8,7 +8,6 @@ const MainLayout = () => {
     <div>
       <header>
         <Navbar />
-
       </header>
 
       <main>
