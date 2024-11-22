@@ -9,7 +9,6 @@ const MainLayout = () => {
       <header>
         <Navbar />
 
-        <BannerSlide></BannerSlide>
       </header>
 
       <main>

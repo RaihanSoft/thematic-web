@@ -1,32 +1,39 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const navLink = (
   <>
+
     <li>
-      <a>Home</a>
+      <NavLink to={'/'}>Home</NavLink>
     </li>
+
     <li>
       <details>
+
         <summary>All Theme</summary>
+
         <ul className="p-1 w-40 bg-white text-black">
           <li>
-            <a>React Template</a>
+            <NavLink to={'/react'}>React Template</NavLink>
           </li>
           <li>
-            <a>Tailwind Template</a>
+            <NavLink to={'/tailwind'}>Tailwind Template</NavLink>
           </li>
         </ul>
       </details>
     </li>
+
     <li>
-      <a>Bundles</a>
+      <NavLink to={'/bundles'}>Bundles</NavLink>
     </li>
+
     <li>
-      <a>Contact</a>
+      <NavLink to={'/contact'} >Contact</NavLink>
     </li>
+
     <li>
-      <a>Hire Us</a>
+      <NavLink to={'/hire-us'}>Hire Us</NavLink>
     </li>
   </>
 );

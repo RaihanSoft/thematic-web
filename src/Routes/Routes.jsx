@@ -1,5 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout";
+import Home from "../Pages/Home";
+import Bundles from "../Pages/Bundles";
+import Contact from "../Pages/Contact";
+import HireUs from "../Pages/HireUs";
+import ReactTemplete from '../Pages/AllTheme/ReactTemplete/ReactTemplete'
+import TailwindTemplete from '../Pages/AllTheme/TailwindTemplete/TailwindTemplete'
+
 
 export const router = createBrowserRouter([
     {
@@ -8,8 +15,33 @@ export const router = createBrowserRouter([
         children: [
 
             {
-                path: '',
-                // element:
+                path: '/',
+                element: <Home />
+            },
+            {
+                path: '/detail',
+                element: <ReactTemplete />
+            },            
+            {
+                path: '/react',
+                element: <ReactTemplete />
+            },
+            {
+                path: '/tailwind',
+                element: <TailwindTemplete />
+            },
+
+            {
+                path: '/bundles',
+                element: <Bundles />
+            },
+            {
+                path: '/contact',
+                element: <Contact />
+            },
+            {
+                path: '/hire-us',
+                element: <HireUs />
             },
         ]
     },
