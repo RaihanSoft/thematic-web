@@ -1,27 +1,23 @@
-import { Outlet } from "react-router-dom"
-import Navbar from "../Components/Navbar/Navbar"
-import Footer from "../Components/Footer/Footer"
+import { Outlet } from 'react-router-dom';
+import Navbar from '../Components/Navbar/Navbar';
+import BannerSlide from '../Components/BannerSlide/BannerSlide';
 
 const MainLayout = () => {
-    return (
-        <div>
+  return (
+    <div>
+      <header>
+        <Navbar />
 
-            <header>
-                <Navbar />
-                this is Navbar
+        <BannerSlide></BannerSlide>
+      </header>
 
+      <main>
+        <Outlet />
+      </main>
 
-            </header>
+      <footer></footer>
+    </div>
+  );
+};
 
-            <main className="h-[calc(100vh-400px)]">
-                <Outlet />
-            </main>
-
-
-            <Footer></Footer>
-
-        </div>
-    )
-}
-
-export default MainLayout
+export default MainLayout;
