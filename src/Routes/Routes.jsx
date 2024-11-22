@@ -6,6 +6,7 @@ import Contact from "../Pages/Contact";
 import HireUs from "../Pages/HireUs";
 import ReactTemplete from '../Pages/AllTheme/ReactTemplete/ReactTemplete'
 import TailwindTemplete from '../Pages/AllTheme/TailwindTemplete/TailwindTemplete'
+import All_Astro from "../Pages/DynamicPage/All_Astro";
 
 
 export const router = createBrowserRouter([
@@ -43,6 +44,12 @@ export const router = createBrowserRouter([
             {
                 path: '/hire-us',
                 element: <HireUs />
+            },           
+             {
+                path: '/all_astro',
+                element: <All_Astro />,
+                loader:()=> fetch('./astro-themes.json')
+                
             },
         ]
     },

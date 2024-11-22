@@ -63,7 +63,7 @@ const Contact = () => {
       className="max-w-4xl mx-auto my-10 p-6 bg-white shadow-2xl rounded-md animate__animated animate__fadeIn"
       data-aos="fade-up"
     >
-        <h1 className="text-center text-3xl font-bold my-4 w-[50%] pb-2 border-b-2 mx-auto">Contact</h1>
+      <h1 className="text-center text-3xl font-bold my-4 w-[50%] pb-2 border-b-2 mx-auto">Contact</h1>
 
       <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Name Input */}
