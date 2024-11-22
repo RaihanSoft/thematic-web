@@ -7,6 +7,7 @@ const MainLayout = () => {
 
             <header>
                 <Navbar />
+                this is Navbar
 
 
             </header>
